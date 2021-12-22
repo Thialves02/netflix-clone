@@ -24,8 +24,8 @@ export default function FeatureMovie({item}) {
                     </div>
                     <div className='featured--description'>{item.overview}</div>
                     <div className='featured--buttons'>
-                        <a href=''>Watch</a>
-                        <a href=''>+ My List</a>
+                        <a href='' className='featured--watchbutton'>Watch</a>
+                        <a href='' className='featured--mylistbutton'> My List</a>
                     </div>
                     <div className='featured--genres'><strong>Genres: </strong>{genres.join(', ')}</div>
                 </div>
